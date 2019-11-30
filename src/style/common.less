@@ -1,0 +1,21 @@
+
+@import "../style/default.less";
+@import "../style/loading.less";
+.container{
+    .ant-menu-item-selected{
+        background: black;
+    }
+    ::selection{
+        background: black;
+    }
+    .main{
+       background: @colorL;
+       height: calc(80vh);
+       overflow:auto;
+    }
+    .content{
+        position: relative;
+        padding:0px;
+        background:@colorL;
+    }
+}
